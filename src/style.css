@@ -1,0 +1,126 @@
+body {
+    background-image: url("./imagen/imagfondo.png");
+    margin:0%
+  }
+  .globo1 {
+    left: 45px;
+    position: absolute;
+    width: 480px;
+    height: 282px;
+    opacity: 0.5;
+    top: 66px;
+  }
+
+  .globo2 {
+    left: 45px;
+    position: absolute;
+    width: 480px;
+    height: 282px;
+    opacity: 0.5;
+    top: 66px;
+  }
+  .testArea1 {
+    left: 111px;
+    position: absolute;
+    width: 311px;
+    height: 180px;
+    opacity: 0.2;
+    top: 88px;
+  }
+  .testArea2 {
+    left: 106px;
+    position: absolute;
+    width: 364px;
+    height: 163px;
+    opacity: 0.2;
+    top: 147px;
+  }
+
+.bienvenida {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    width: 100%;
+    text-align:center;
+    color: #000000;
+}
+  
+.instrucciones {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+.codigo1 {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.codigo2 {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 330px;
+    color: #000000;
+}
+.codigo3 {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 322px;
+    color: #000000;
+}
+.botoncifrar {
+    position: absolute;
+    left: 481px;
+    top: 871px;
+    width: 259px;
+    height: 66px;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 27px;
+}
+.botondescifrar {
+    position: absolute;
+    left: 820px;
+    top: 872px;
+    width: 259px;
+    height: 66px;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 27px;
+}
+.cifrar {
+    position: absolute;
+    width: 540px;
+    height: 440px;
+    left: 170px;
+    top: 424px;
+}
+.descifrar {
+    position: absolute;
+    width: 540px;
+    height: 440px;
+    left: 775px;
+    top: 379px;
+}
+.contenedorcifradodescifrado {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.mensajeentradaysalida {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
