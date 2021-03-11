@@ -24,16 +24,26 @@ body {
     position: absolute;
     width: 311px;
     height: 180px;
-    opacity: 0.2;
+    opacity: 0.6;
     top: 88px;
+    color:#000000;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 900;
+
   }
   .testArea2 {
     left: 106px;
     position: absolute;
     width: 364px;
     height: 163px;
-    opacity: 0.2;
+    opacity: 0.6;
     top: 147px;
+    color:#000000;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 900;
+
   }
 
 .bienvenida {

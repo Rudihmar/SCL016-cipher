@@ -18,31 +18,36 @@
       <li class="instrucciones">Disfruta tu mensaje secreto</li>
     </ol>
   </header>
-
+  
   <main>
     <label class="codigo1">Coloca tu Codigo:</label>
-    <input type="number" id="numberoffset" name="numero de desplazamiento" min="1" max="100">
+    <input type="number" id="numberOffset" name="numero de desplazamiento" min="1" max="100">
     <div class="contenedorcifradodescifrado">
-        <div class="mensajeentradaysalida">
-          <h2 class="codigo2">Escribe tu Mensaje:</h2>
-          <div class="cifrar">
-            <img src=".\imagen\globo1.png" alt="Globo Mensajeria Secreta" class="globo1">
-            <textarea class="testArea1"></textarea>
-          </div>
+      <div class="mensajeentradaysalida">
+        <h2 class="codigo2">Escribe tu Mensaje:</h2>
+        <div class="cifrar">
+          <img src=".\imagen\globo1.png" alt="Globo Mensajeria Secreta" class="globo1">
+          
+          
+          <input type="text" class="testArea1" id="msgInicio">
         </div>
-
-        <div class="mensajeentradaysalida">
-          <h2 class="codigo3">Resultado:</h2>
-          <div class="descifrar">
-            <img src=".\imagen\globo2.png" alt="Globo Mensajeria Secreta" class="globo2">
-            <textarea class="testArea2"></textarea>
-          </div>
+      </div>
+      
+      <div class="mensajeentradaysalida">
+        <h2 class="codigo3">Resultado:</h2>
+        <div class="descifrar">
+          <img src=".\imagen\globo2.png" alt="Globo Mensajeria Secreta" class="globo2">
+          
+          
+          <input type="text" class="testArea2" id="msgResultado">
         </div>
+      </div>
     </div>
-
-    <button name="cifrar" class="botoncifrar">Cifrar</button>
-    <button name="descifrar" class="botondescifrar">Descifrar</button>
-
+    
+    <button name="cifrar" id="botoncifrar" class="botoncifrar">Cifrar</button>
+    <button name="descifrar" id="botondescifrar" class="botondescifrar">Descifrar</button>
+    
+    
   </main>
   <script src="index.js" type="module"></script>
 </body>
