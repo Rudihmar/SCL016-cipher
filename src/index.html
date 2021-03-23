@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Cifrado Cesar</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <header>
+      <h1 class="welcome">Bienvenvenidos a TU MENSAJE SECRETO</h1>
+      <h3 class="instructions">Para comenzar sigue los siguientes pasos:</h3>
+      <ol>
+        <li class="instructions">
+          Coloca tu codigo para elegir el n°de desplazamientos
+        </li>
+        <li class="instructions">
+          Escribe el mensaje que deseas Cifrar/Descifrar
+        </li>
+        <li class="instructions">
+          Haz Click en el recuadro Cifrar o Descifrar
+        </li>
+        <li class="instructions">Disfruta tu mensaje secreto</li>
+      </ol>
+    </header>
 
-<body>
-  <header>
-    <h1 class="bienvenida">Bienvenvenidos a TU MENSAJE SECRETO</h1>
-    <h3 class="instrucciones">Para comenzar sigue los siguientes pasos:</h3>
-    <ol>
-      <li class="instrucciones">Coloca tu codigo para elegir el n°de desplazamientos</li>
-      <li class="instrucciones">Escribe el mensaje que deseas Cifrar/Descifrar</li>
-      <li class="instrucciones">Haz Click en el recuadro Cifrar o Descifrar</li>
-      <li class="instrucciones">Disfruta tu mensaje secreto</li>
-    </ol>
-  </header>
-  
-  <main>
-    <label class="codigo1">Coloca tu Codigo:</label>
-    <input type="number" id="numberOffset" name="numero de desplazamiento" min="1" max="100">
-    <div class="contenedorcifradodescifrado">
-      <div class="mensajeentradaysalida">
-        <h2 class="codigo2">Escribe tu Mensaje:</h2>
-        <div class="cifrar">
-          <img src=".\imagen\globo1.png" alt="Globo Mensajeria Secreta" class="globo1">
-          
-          
-          <input type="text" class="testArea1" id="msgInicio">
+    <main>
+      <label class="cod1">Coloca tu Codigo:</label>
+      <input
+        type="number"
+        id="numberOffset"
+        name="numero de desplazamiento"
+        min="1"
+        max="100"
+      />
+      <div class="contenedorcifradodescifrado">
+        <div class="mensajeentradaysalida">
+          <h2 class="write1">Escribe tu Mensaje:</h2>
+          <div class="cifrar">
+            <img
+              src=".\imagen\globo1.png"
+              alt="Globo Mensajeria Secreta"
+              class="glob1"
+            />
+
+            <input type="text" class="testArea1" id="msgInicio" />
+          </div>
+        </div>
+
+        <div class="mensajeentradaysalida">
+          <h2 class="write2">Resultado:</h2>
+          <div class="descifrar">
+            <img
+              src=".\imagen\globo2.png"
+              alt="Globo Mensajeria Secreta"
+              class="glob2"
+            />
+
+            <input type="text" class="testArea2" id="msgResultado" />
+          </div>
         </div>
       </div>
-      
-      <div class="mensajeentradaysalida">
-        <h2 class="codigo3">Resultado:</h2>
-        <div class="descifrar">
-          <img src=".\imagen\globo2.png" alt="Globo Mensajeria Secreta" class="globo2">
-          
-          
-          <input type="text" class="testArea2" id="msgResultado">
-        </div>
-      </div>
-    </div>
-    
-    <button name="cifrar" id="botoncifrar" class="botoncifrar">Cifrar</button>
-    <button name="descifrar" id="botondescifrar" class="botondescifrar">Descifrar</button>
-    
-    
-  </main>
-  <script src="index.js" type="module"></script>
-</body>
 
+      <button name="cifrar" id="botonCifrar" class="botoncifrar">Cifrar</button>
+      <button name="descifrar" id="botonDescifrar" class="botondescifrar">
+        Descifrar
+      </button>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
